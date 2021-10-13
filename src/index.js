@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Card from './components/card';
+let x=80;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Card name="oppo" price="150" />
+      <Card name="Apple" price="170" />
+      <Card name="Nokia" price="50" />
+      <Card name="realme" price="125" />
+      <Card name="MI" price="120" />
   </React.StrictMode>,
   document.getElementById('root')
 );
